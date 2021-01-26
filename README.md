@@ -7,3 +7,5 @@ The player controls the wizard named Isilmo (hence the game's name) and needs to
 Isilmo was my first attempt at game development, pixelart and music writing.
 
 The game features [Arcade Classic font by Pizzadude](https://www.dafont.com/arcade-classic-2.font).
+
+WebGL production build of Isilmo can be played in browser on [Netlify](https://practical-yalow-38aaf1.netlify.app/).
