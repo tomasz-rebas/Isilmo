@@ -1,0 +1,3 @@
+pg-project/pg-project.CSharp.csproj
+pg-project/pg-project.sln
+pg-project/.vs/pg-project

@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1252190052175964}
+  m_IsPrefabParent: 1
+--- !u!1 &1252190052175964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4334842094277796}
+  - component: {fileID: 114966258438170572}
+  - component: {fileID: 114717156065219284}
+  - component: {fileID: 114061839898987482}
+  - component: {fileID: 114092468105422022}
+  - component: {fileID: 114237319785310694}
+  m_Layer: 0
+  m_Name: _Scene2Master
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4334842094277796
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252190052175964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114061839898987482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252190052175964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e06b2106deb96d4587fbb94b3e19b8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flier: {fileID: 1563926805430110, guid: 116956923a09447cebf629fe26c41bad, type: 2}
+  flierSpawnPoint: {fileID: 1994208584274838, guid: a189457898bed40dd80a2b3fcc4a819f,
+    type: 2}
+  yMin: -6
+  yMax: 6
+  intervalMin: 1.2
+  intervalMax: 3.2
+--- !u!114 &114092468105422022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252190052175964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e06b2106deb96d4587fbb94b3e19b8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flier: {fileID: 1378009172813068, guid: 000248111cee85d49b496a5b2f548885, type: 2}
+  flierSpawnPoint: {fileID: 1994208584274838, guid: a189457898bed40dd80a2b3fcc4a819f,
+    type: 2}
+  yMin: 4
+  yMax: 12
+  intervalMin: 1.5
+  intervalMax: 3.6
+--- !u!114 &114237319785310694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252190052175964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4efc7bc0d10da044b600b7fcabf2e3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: 2
+--- !u!114 &114717156065219284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252190052175964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07f4806ee9c149f449522dfcd8b5e484, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platformWay:
+  - ground: {fileID: 1349111610431508, guid: 5cbd1956badfd1349ace45bd8c5807c2, type: 2}
+    startPoint: {fileID: 0}
+    endPoint: {fileID: 0}
+    numberOfPlatforms: 16
+    platformScale: {x: 1.5, y: 0.8}
+    verticalMin: -5
+    verticalMax: 5
+    heightMax: 20
+    heightMin: -12
+--- !u!114 &114966258438170572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252190052175964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 538e93c38cf54492eb09e1bafbe4fb51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgrounds:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  smoothing: 0.9
