@@ -22,7 +22,7 @@ public class Pig : MonoBehaviour
     {
         anim = GetComponent<Animator>();
 
-        firePoint = transform.FindChild ("FirePoint");
+        firePoint = transform.Find ("FirePoint");
 		if (firePoint == null) 
             Debug.LogError ("No firePoint has been found.");
 

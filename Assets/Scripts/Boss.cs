@@ -49,9 +49,9 @@ public class Boss : MonoBehaviour
 
         wizard = transform.Find ("/Wizard");
         if (wizard == null) Debug.LogError ("No wizard has been found.");
-        rit = transform.FindChild ("RocketInitialTarget");
+        rit = transform.Find ("RocketInitialTarget");
         if (rit == null) Debug.LogError ("No RocketInitialTarget has been found.");
-        firePoint = transform.FindChild ("boss_2_leftArm/FirePoint");
+        firePoint = transform.Find ("boss_2_leftArm/FirePoint");
         if (firePoint == null) Debug.LogError ("No firePoint has been found.");
 
         InvokeRepeating ("RandomizeAction", 3f, 3f);

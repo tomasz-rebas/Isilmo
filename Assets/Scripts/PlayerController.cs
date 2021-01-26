@@ -66,7 +66,7 @@ public class PlayerController : MonoBehaviour
         bubble = GetComponent<SpriteRenderer>();
         bubble.enabled = false;
 
-        firePoint = transform.FindChild ("HandLeft/FirePoint");
+        firePoint = transform.Find ("HandLeft/FirePoint");
         if (firePoint == null)
             Debug.LogError ("No firePoint has been found.");
 
