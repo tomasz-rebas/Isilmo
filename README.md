@@ -9,10 +9,13 @@ Isilmo was my first attempt at game development, pixelart and music writing.
 Of course, there's a room for potential improvements:
 - add footstep sounds (additional indicator of player's movement),
 - add jumping sound,
+- add landing on the ground sound,
 - replace bomb's sound with something more powerful (it deals a lot of damage),
 - the wizard should gain momentum of the moving platform he's standing on,
 - the wizard should be temporarily invulnerable after getting hit (similarly to posthumous protection but shorter), so he has a chance to escape the enemy's collision,
 - player shouldn't be able to reset double jump by sticking to the side of the platform,
+- add some short visual indicator of boss's jump before he does it,
+- change Level 4 scene camera so its static and covers the whole area (so you can keep track of boss's movement),
 - track different stats throughout the game (like accuracy, picked up items, damage taken etc.) and display them when the game is over,
 - more levels!
 
